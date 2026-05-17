@@ -18,34 +18,34 @@
 
         Base {
             bindings = <
-&kp GRAVE       &kp N1   &kp N2  &kp N3        &kp N4        &kp N5          &kp N6       &kp N7         &kp N8     &kp N9   &kp N0       &kp BACKSLASH
-&kp TAB         &kp Q    &kp W   &kp E         &kp R         &kp T           &kp Y        &kp U          &kp I      &kp O    &kp P        &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A    &kp S   &kp D         &kp F         &kp G           &kp H        &kp J          &kp K      &kp L    &kp SEMI     &kp APOS
-&kp LCTRL       &lt 3 Z  &kp X   &kp C         &kp V         &kp B           &kp N        &kp M          &kp COMMA  &kp DOT  &lt 3 SLASH  &kp ESCAPE
-                                 &kp LEFT_WIN  &kp SPACE     &lt 1 ENTER     &lt 2 ENTER  &kp RIGHT_ALT
-                                               &kp LEFT_ALT  &kp CAPSLOCK    &kp DELETE
+&kp ESCAPE      &kp N1   &kp N2  &kp N3        &kp N4        &kp N5          &kp N6       &kp N7         &kp N8     &kp N9   &kp N0       &kp MINUS
+&kp TAB         &kp Q    &kp W   &kp F         &kp P         &kp G           &kp J        &kp L          &kp U      &kp Y    &kp SEMI     &kp APOS
+&kp LEFT_SHIFT  &kp A    &kp R   &kp S         &kp T         &kp D           &kp H        &kp N          &kp E      &kp I    &kp O        &lt 1 ENTER
+&kp LCTRL       &lt 2 Z  &kp X   &kp C         &kp V         &kp B           &kp K        &kp M          &kp COMMA  &kp DOT  &lt 2 SLASH  &kp DEL
+                                 &kp SPACE     &kp LEFT_ALT  &lt 1 CAPSLOCK  &kp UP       &kp BACKSPACE
+                                               &kp LEFT      &kp RIGHT       &kp DOWN
             >;
         };
 
         Lower {
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp LBKT       &kp RBKT       &kp F1         &kp F2        &kp F3                &kp F4                 &kp BACKSPACE
-&kp LSHFT  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none          &kp BACKSLASH  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
-&kp LCTRL  &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL     &none          &none          &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
-                                          &kp LEFT_WIN  &kp SPACE     &trans         &kp ENTER      &kp RIGHT_ALT
-                                                        &none         &none          &none
+&kp F12     &kp F1    &kp F2  &kp F3  &kp F4        &kp F5         &kp LPAR       &kp RPAR       &kp LT        &kp GT       &kp KP_MINUS      &kp KP_NUM
+&none       &none     &none   &none   &none         &none          &kp RBKT       &kp KP_N7      &kp KP_N8     &kp KP_N9    &kp KP_PLUS       &kp HOME
+&none       &none     &none   &none   &kp HOME      &kp PAGE_UP    &kp LBKT       &kp KP_N6      &kp KP_N5     &kp KP_N6    &kp KP_MULTIPLY   &kp PAGE_UP
+&none       &none     &none   &none   &kp END       &kp PAGE_DOWN  &kp KP_N0      &kp KP_N1      &kp KP_N2     &kp KP_N3    &kp KP_DIVIDE     &kp PAGE_DOWN
+                                      &kp SPACE     &kp LEFT_ALT   &lt 1 CAPSLOCK &kp UP         &kp BACKSPACE
+                                                    &kp LEFT       &kp RIGHT      &kp DOWN
             >;
         };
 
         Raise {
             bindings = <
-&kp F12        &kp F1      &kp F2      &kp F3         &kp F4         &kp F5          &kp F6             &kp F7         &kp F8    &kp F9     &kp F10  &kp F11
-&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)     &kp LS(N4)     &kp LS(LBKT)    &kp LS(RBKT)       &none          &none     &none      &none    &none
-&kp LSHFT      &kp LS(N5)  &kp LS(N6)  &kp LS(N7)     &kp LS(N8)     &none           &kp LS(BACKSLASH)  &none          &kp UP    &none      &none    &none
-&kp LCTRL      &kp LS(N9)  &kp LS(N0)  &kp LS(MINUS)  &kp LS(EQUAL)  &none           &none              &kp LEFT       &kp DOWN  &kp RIGHT  &none    &none
-                                       &kp LEFT_WIN   &kp SPACE      &kp ENTER       &trans             &kp RIGHT_ALT
-                                                      &none          &none           &none
+&kp F12         &kp F1  &kp F2      &kp F3      &kp F4      &kp F5      &kp F6     &kp F7       &kp F8      &kp F9    &kp F10  &kp F11
+&bt BT_SEL 0    &none   &none       &mkp MCLK   &none       &none       &none      &none        &mkp MCLK   &none     &none    &none
+&bt BT_SEL 1    &none   &mkp RCLK   &none       &mkp LCLK   &none       &none      &mkp LCLK    &none       &mkp RCLK &none    &none
+&bt BT_SEL 2    &none   &none       &none       &none       &none       &none      &none        &none       &none     &none    &none
+                                                &none       &kp SPACE   &none      &none        &kp BACKSPACE
+                                                            &none       &none      &none
             >;
         };
 
