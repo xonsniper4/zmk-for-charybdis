@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   Base:
-  - '`'
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -12,108 +12,108 @@ layers:
   - '8'
   - '9'
   - '0'
-  - \
+  - '-'
   - Tab
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - Shift
-  - A
-  - S
-  - D
   - F
+  - P
   - G
-  - H
   - J
-  - K
   - L
+  - U
+  - Y
   - ;
   - ''''
+  - Shift
+  - A
+  - R
+  - S
+  - T
+  - D
+  - H
+  - N
+  - E
+  - I
+  - O
+  - {t: Enter, h: Lower}
   - Ctrl
-  - {t: Z, h: Mouse}
+  - {t: Z, h: Raise}
   - X
   - C
   - V
   - B
-  - N
+  - K
   - M
   - ','
   - .
-  - {t: /, h: Mouse}
-  - ESC
-  - LEFT WIN
-  - Space
-  - {t: Enter, h: Lower}
-  - {t: Enter, h: Raise}
-  - Alt
-  - Alt
-  - CAPSLOCK
+  - {t: /, h: Raise}
   - DEL
+  - Space
+  - Alt
+  - {t: CAPSLOCK, h: Lower}
+  - ↑
+  - BSPC
+  - ←
+  - →
+  - ↓
   Lower:
-  - '~'
-  - '!'
-  - '#'
-  - $
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '['
-  - ']'
+  - F12
   - F1
   - F2
   - F3
   - F4
-  - BSPC
-  - LSHFT
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - ''
-  - \
   - F5
-  - F6
-  - F7
-  - F8
+  - (
+  - )
+  - <
+  - '>'
+  - KP MINUS
+  - KP NUM
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ']'
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
+  - Home
+  - ''
+  - ''
+  - ''
+  - ''
+  - Home
   - PgUp
-  - Ctrl
-  - '9'
-  - '0'
-  - '-'
-  - '='
+  - '['
+  - KP 6
+  - KP 5
+  - KP 6
+  - KP MULTIPLY
+  - {t: PgUp, type: held}
   - ''
   - ''
-  - F9
-  - F10
-  - F11
-  - F12
+  - ''
+  - ''
+  - End
   - PgDn
-  - LEFT WIN
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DIVIDE
+  - PgDn
   - Space
-  - {type: held}
-  - Enter
   - Alt
-  - ''
-  - ''
-  - ''
+  - {t: CAPSLOCK, h: Lower}
+  - ↑
+  - BSPC
+  - ←
+  - →
+  - ↓
   Raise:
   - F12
   - F1
@@ -127,47 +127,47 @@ layers:
   - F9
   - F10
   - F11
-  - Sft+`
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - Sft+4
-  - Sft+[
-  - Sft+]
+  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - '&mkp MCLK'
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - LSHFT
-  - Sft+5
-  - Sft+6
-  - Sft+7
-  - Sft+8
-  - ''
-  - Sft+\
-  - ''
-  - ↑
+  - '&mkp MCLK'
   - ''
   - ''
   - ''
-  - Ctrl
-  - Sft+9
-  - Sft+0
-  - Sft+-
-  - Sft+=
+  - {t: BT, h: '1'}
+  - ''
+  - '&mkp RCLK'
+  - ''
+  - '&mkp LCLK'
   - ''
   - ''
-  - ←
-  - ↓
-  - →
+  - '&mkp LCLK'
+  - ''
+  - '&mkp RCLK'
   - ''
   - ''
-  - LEFT WIN
-  - Space
-  - Enter
+  - {t: BT, h: '2'}
   - {type: held}
-  - Alt
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Space
+  - ''
+  - ''
+  - BSPC
   - ''
   - ''
   - ''
@@ -209,7 +209,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - {type: held}
+  - ''
   - '&mkp RCLK'
   - Scroll
   - '&mkp LCLK'
@@ -266,7 +266,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - {type: held}
+  - ''
   - '&mkp RCLK'
   - {type: held}
   - '&mkp LCLK'
